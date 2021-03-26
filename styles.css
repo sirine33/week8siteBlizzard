@@ -1,0 +1,95 @@
+.container-fluid {
+    position: relative;
+    height: 60px;
+    padding: 0 30px;
+    white-space: nowrap;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.4;
+    
+}
+.Navbar-logo {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: 70px;
+    margin-right: 20px;
+}
+.nav-item {
+    position: relative;
+    display: inline-block;
+    height: 60px;
+    padding: 0;
+    font-family: "Blizzard",Helvetica,Arial,sans-serif;
+    font-size: 17px;
+    line-height: 1.4;
+    color: rgba(255,255,255,0.7);
+    background: transparent;
+    white-space: nowrap;
+    transition: color 200ms,background-color 200ms,border-color 200ms;
+    display: inline-block;
+    line-height: 60px;
+    height: 60px;
+}
+.bg-light {
+    background-color: #050619!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgba(255,255,255,.7);
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,255,.7);
+}
+.Navbar-profileItems {
+    position: absolute;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+}
+.Navbar-label {
+    display: inline-block;
+    line-height: 60px;
+    height: 60px;
+    color: rgba(255,255,255,.7);
+}
+.Navbar-label.Navbar-accountUnauthenticated {
+    display: inline-block;
+}
+.d-block w-100 {
+    height: 100%;
+}
+.Background-part3 {
+    display: flex;
+    background-image:url(https://d9me64que7cqs.cloudfront.net/images/common/background-generic-landscape-short.31b43a7823e13c6383e5e613b04b5b58.jpg) ;
+    background-position: top center;
+    background-repeat: no-repeat;
+    border-top: 1px solid rgba(255,255,255,.1);
+}
+.contentWrapper{
+    padding: 16px 8px;
+}
+.headingContainer {
+    margin: 0 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+.h2--hrf{
+    font-size: 1.5rem;
+    font-family: "Blizzard",Helvetica,Arial,sans-serif;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #fff;
+}
+.link-heading{
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #fff;
+    color: #00aeff;
+    transition: color 200ms;
+    text-decoration: none
+}
